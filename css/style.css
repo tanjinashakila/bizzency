@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 1170px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.button{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif ;
+    font-weight: 500;
+    padding: 16px 21px;
+    background-color: #ffc712;
+    display: inline-block;
+    color: black;
+    border-radius: 10px;
+ }
+ .heading h2{
+    font-family: 'Abril Fatface', serif;
+    font-size: 32px;
+ }
+ .heading p{
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: 300;
+    font-size: 14px;
+ }
+
+
+/* label ber starts */
+#label{
+    color: white;
+    background-color: #0f2f44;
+    font-size: 16px;
+ padding: 20px ;
+ font-family: 'Ubuntu', sans-serif;
+   font-weight: 300;
+
+}
+#label .row{
+    align-items: center;
+}
+#label #label1{
+    width: 50%;
+    /* justify-content: start; */
+}
+#label #label2{
+    width: 50%;
+    text-align: right;
+}
+
+/* label ber ends */
+ /* nav ber starts */
+nav .logo{
+    width: 32%;
+    
+}
+nav .row{
+    align-items: center;
+}
+.menu li{
+    display: inline-block;
+    padding: 18px;
+    text-align: right;
+}
+.menu a{
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+font-weight: 500;
+color: black;
+text-transform: capitalize;
+}
+.menu span{
+    border: 1px solid rgba(0, 0, 0, 0.388);
+    border-radius: 100%;
+    padding: 10px;
+}
+.menu li:hover a{
+    color: #ffd462;
+}
+.menu select{
+    width: 75px;
+    border-style: none;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+font-weight: 500;
+text-transform: capitalize;
+
+}
+ /* nav ber ends */
+
+ /* banner starts */
+ #banner{
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    background-color: blue;
+ }
+ #banner .row{
+    align-items: center;
+    height: 600px;
+    
+ }
+ .img_cnt{
+    align-items: center;
+ }
+ .img_cnt h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 55px;
+ }
+ .img_cnt h1 span{
+    font-family:'Abril Fatface', serif ;
+    font-weight: 400;
+    font-size: 80px;
+ }
+ .img_cnt h2{
+    font-family:'Ubuntu', sans-serif ;
+    font-weight: 400;
+    font-size: 32px;
+    color:#8484bf;
+ }
+.img_cnt p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#8484bf;
+    padding: 33px 0;
+
+}
+#banner .button{
+    color: white;
+    background-color: #8484bf;
+    
+}
+.img_cnt i{
+        border: 1px solid rgba(0, 0, 0, 0.388);
+        border-radius: 100%;
+        padding: 10px;
+        color: #8484bf;
+        font-size: 20px;
+    background-color: white;
+    margin-left: 30px;
+}
+ /* banner ends */
+
+ /* about starts */
+ #about{
+    margin: 100px 0;
+ }
+#about #about_cnt{
+    width: 50%;
+}
+#about_cnt{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+#about_cnt .heading{
+    margin-bottom: 30px;
+}
+#about_cnt .read{
+    background-color: white;
+}
+#about_cnt .menu2 li{
+    padding: 14px 20px;
+    
+}
+
+ /* about ends */
+
+ /* skills starts */
+ #skills .container{
+    width: 30%;
+}
+#skills #pic2{
+     padding-left: 120px;
+}
+
+
+ /* skills ends */
+ 
+/* service starts */
+#service{
+    background-color: #f5f5f5;
+    margin: 100px 0;
+}
+#service .heading{
+    text-align: center;
+    padding: 63px 0;
+}
+.service_card h2{
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: 500;
+    font-size: 20px;
+}
+.service_card p{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+}
+#service .row{
+    justify-content: space-evenly;
+    padding-bottom: 84px;
+}
+.service_card{
+    background-color: #eeeeee;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+
+/* service ends */
+/* portfolio starts */
+#portfolio .heading{
+    text-align: center;
+    margin: 100px 0;
+}
+#portfolio .row{
+justify-content: space-evenly;
+}
+#portfolio .button{
+    
+    margin: 84px 0;
+    justify-content: center;
+    color: black;
+    
+}
+/* portfolio starts */
+
+ /* font-family: 'Abril Fatface', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
